@@ -20,7 +20,7 @@
     #game-container {
       text-align: center;
       background: rgba(0, 0, 0, 0.8);
-      padding: 20px;
+      padding: 40px 50px;
       border: 2px solid #00ff00;
       border-radius: 5px;
       max-width: 800px;
@@ -32,7 +32,7 @@
     }
     #mapping-container {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 10px;
     }
     .mapping {
@@ -88,7 +88,7 @@
     <h1>REBEL CIPHER VAULT</h1>
     <p>DECODE THE ENCRYPTED IMPERIAL MESSAGE:</p>
     <div id="encrypted-quote"></div>
-    <p>MAP REMAINING NUMBERS (0-25) TO PLAIN LETTERS (A-Z, ONE-TO-ONE, NO REPEATS). HINT: 3=S, 7=T ARE SHOWN.</p>
+    <p>MAP REMAINING NUMBERS (0-25) TO PLAIN LETTERS (A-Z, ONE-TO-ONE, NO REPEATS).</p>
     <div id="mapping-container"></div>
     <button onclick="decodeQuote()">DECODE</button>
     <div id="decoded-quote"></div>
