@@ -192,7 +192,8 @@
       }).join('');
       document.getElementById('decoded-quote').textContent = decoded;
       if (decoded === originalQuote) {
-        document.getElementById('result').innerHTML = 'MESSAGE DECODED. PASSWORD: <strong>VENGEANCE</strong>';
+        document.getElementById('result').innerHTML = 'MESSAGE DECODED. PASSWORD: <strong>VENGEANCE</strong>' +
+          '<br/><br/> Go to the Cantina to continue.';
         document.getElementById('result').style.color = '#00ff00';
       } else {
         document.getElementById('result').innerHTML = 'DECODING ERROR. TRY AGAIN.';
